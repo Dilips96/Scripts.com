@@ -3,11 +3,14 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="TestNGAnnotation.com.AppTest">
+      <class name="TestNGAnnotation.com.Log">
         <methods>
-          <include name="AppTest"/>
+          <include name="closeapp"/>
+          <include name="Testcase2"/>
+          <include name="setuptest"/>
+          <include name="testcase1"/>
         </methods>
-      </class> <!-- TestNGAnnotation.com.AppTest -->
+      </class> <!-- TestNGAnnotation.com.Log -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
