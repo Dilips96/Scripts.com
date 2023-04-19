@@ -32,7 +32,8 @@ public class Minimise
 		
 		driver.findElement(By.xpath("//input[@id=\"search\"]")).sendKeys("TestNG tutorial by naveen automation labs");
 		
-		
+		String title = driver.getTitle();
+		System.out.println(title);
 		
 		
 		
