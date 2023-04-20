@@ -35,6 +35,8 @@ public class Minimise
 		String title = driver.getTitle();
 		System.out.println(title);
 		
+		driver.close();
+		
 		
 		
 		
